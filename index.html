@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="enter-name">
+            <span>Enter Movie Name ( ͡° ͜ʖ ͡°) 	&#10084;</span>
+            <form>
+                <div class="search-box">
+                    <input type="text" id="name" autocomplete="off" autofocus>
+                    <input type="submit" value="Search">
+                </div>
+            </form> 
+        </div> 
+        <div class="movies-container" id="movies-container"></div>   
+        <button id="load-more-btn">Load More</button>  
+        <div class="side-panel" id="side-panel">
+            <span><button id="close-btn" class="close-btn">Close</button></span>
+            <iframe id="movie-details-iframe"></iframe>
+        </div>
+    </div>
+</body>
+</html>
