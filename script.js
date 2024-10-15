@@ -1,4 +1,4 @@
-const apiKey = 'cf6bbf13';
+const apiKey = process.env.OMDB_API_KEY;
 let searchQuery = '';
 let page = 1;
 let movies = [];
